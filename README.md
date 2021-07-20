@@ -1,14 +1,14 @@
 # Norvegian-Fjords-Simulation_OpenGL
 
-<h1> General description </h1>
+<h3> General description </h3>
 
-An OpenGL 3D simulation of a typical norvegian fjord. The rendered scene contains a part of a river network confluence along which a boat is sailing back and forth taking random paths. Some high, steep hills nearby are also included into the render scene.
+An <h6>OpenGL 3D</h6> simulation of a typical <h6>norvegian fjord</h6>. The rendered scene contains a part of a river network confluence along which a boat is sailing back and forth taking random paths. Some high, steep hills nearby are also included into the render scene.
 
 ![Demo](https://github.com/BogdanPolitic/Demos/blob/main/Fjords_short_0.gif?raw=true)
 
-<h6> Implementation </h6>
+<h3> Implementation </h3>
 
-The general point I was focused on while building the project is making use of the graphics geometry shader based on which the river and the hills are rendered. The river is a network of connected vertices uniformly split along bezier curves. Thus, each river "branch" is defined by a bezier curve. Each chain of hills is built using the same bezier curves, with the vertices offsetted further and elevated on the height axis. The number of samples of a bezier curve can be changed on 3-key and 4-key, resulting in smoother or sharper edges.
+The general point I was focused on while building the project is making use of the graphics <h6>geometry shader</h6> based on which the river and the hills are rendered. The river is a network of connected vertices uniformly split along bezier curves. Thus, each river "branch" is defined by a bezier curve. Each chain of hills is built using the same bezier curves, with the vertices offsetted further and elevated on the height axis. The number of samples of a bezier curve can be changed on 3-key and 4-key, resulting in smoother or sharper edges.
 The geometry shader takes a matrix transform input and builds its own network of vertices and triangles. The matrix transforms the resulted network of triangles, moving it to the right place on the scene. The same textures are applied to each pair of triangles, the cause of the apparently homogenous objects.
 Because on the older GPUs there is a cap of 256 vertices to be rendered by a single geometry shader instance, there's a different instance for each river and hill branch, each one given their specific bezier curve.
 

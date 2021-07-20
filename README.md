@@ -1,3 +1,3 @@
 # Norvegian-Fjords-Simulation_OpenGL
 
-![Demo](https://drive.google.com/file/d/1ebk3Wo7PNltNNA4Il4_4tE_SbAKQqBiU/view?raw=true)
+![Demo](https://drive-thirdparty.googleusercontent.com/128/type/image/gif?raw=true)

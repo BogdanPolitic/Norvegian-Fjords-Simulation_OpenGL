@@ -1,6 +1,6 @@
 # Norvegian-Fjords-Simulation_OpenGL
 
-<h6> General description </h6>
+<h1> General description </h1>
 
 An OpenGL 3D simulation of a typical norvegian fjord. The rendered scene contains a part of a river network confluence along which a boat is sailing back and forth taking random paths. Some high, steep hills nearby are also included into the render scene.
 

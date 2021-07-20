@@ -2,7 +2,7 @@
 
 <h3> General description </h3>
 
-An <span style="font-weight:bold"><h6>OpenGL 3D</h6></span> simulation of a typical <h6>norvegian fjord</h6>. The rendered scene contains a part of a river network confluence along which a boat is sailing back and forth taking random paths. Some high, steep hills nearby are also included into the render scene.
+An <span style="color:blue;font-weight:bold">blue</span> simulation of a typical <h6>norvegian fjord</h6>. The rendered scene contains a part of a river network confluence along which a boat is sailing back and forth taking random paths. Some high, steep hills nearby are also included into the render scene.
 
 ![Demo](https://github.com/BogdanPolitic/Demos/blob/main/Fjords_short_0.gif?raw=true)
 

@@ -1,3 +1,3 @@
 # Norvegian-Fjords-Simulation_OpenGL
 
-![Demo](https://drive-thirdparty.googleusercontent.com/128/type/image/gif?raw=true)
+![Demo](https://github.com/BogdanPolitic/Demos/blob/main/Fjords_short_0.gif?raw=true)
